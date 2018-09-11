@@ -1,26 +1,53 @@
 /** Basic Portfolio -  **/
 body {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans‐serif;
     line-height: 150%;
     color: #777777;
-    background-color: #ffffff;
+    background-color: grey;
+    width: 960px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 header, h2 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 header {
+    float: left;
     background-color: #4aaaa5;
     border: #cccccc;
     
 }
 
+.banner {
+    background-color: beige;
+}
 
-h1 {}
+.content{
+    background-color: beige;
+}
+ul {
+    list-style: none;
+}
 
-h2 {}
+li {
+    float: right;
+}
+li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
 
 .website{
 
@@ -28,7 +55,7 @@ h2 {}
 img {
     float: left;
 }
-a {}
+
 
 footer {
     background-color: #666666;

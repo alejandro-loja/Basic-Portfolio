@@ -98,3 +98,24 @@ footer {
     border-top: 8px solid #4aaaa5;
     padding: 30px;
 }
+
+textarea{
+    width: 100%;
+    height: 200px;
+    border: 1px solid #ccc;
+}
+.infop {
+    width: 884px;
+    font-size: 12px;
+    padding: 8px;
+    margin-bottom: 20px;
+    color: #666;
+    
+}
+.submitb{
+    padding: 10px 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4aaaa5;
+}

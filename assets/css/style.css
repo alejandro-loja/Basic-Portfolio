@@ -86,9 +86,11 @@ a:active{
 .website{
 
 }
-img {
+.port-img {
     float: left;
     margin-right: 25px;
+    width: 275px;
+    height: 205px;
 }
 
 
@@ -110,6 +112,7 @@ textarea{
     padding: 8px;
     margin-bottom: 20px;
     color: #666;
+    border: 1px solid #ccc;
     
 }
 .submitb{
@@ -134,9 +137,4 @@ textarea{
 
     width: 100%;
     background-color: #4aaaa5;
-}
-
-.portfolio-img{
-    height: 275px;
-    width: 205px;
 }

@@ -7,7 +7,6 @@ body {
     line-height: 2.0;
     color: #777;
     background-image: url(../images/witewall_3.png);
-    
     font-size: 16px;
     box-sizing: border-box;
 }
@@ -25,6 +24,9 @@ header, h2 {
 h2 {
     color: #4aaaa5;
 }
+ p{
+     text-indent: 20px;
+ }
 header {
     float: left;
     background-color:rgb(64,170,165); 
@@ -88,6 +90,10 @@ a:active{
 img {
     float: left;
     margin-right: 25px;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
 }
 
 footer {
